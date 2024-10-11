@@ -23,7 +23,7 @@ else:
 URL = environ.get("URL", "https://yearning-jaquelyn-instant-ba2e8c5d.koyeb.app/")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002037384930'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002183155239'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5983189506').split()]
 
 # MongoDB information
